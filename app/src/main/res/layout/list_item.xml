@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/lightblue"
+                android:focusable="true">
+
+    <View android:id="@+id/view_bg"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="#000000"
+          android:visibility="invisible"/>
+
+    <TextView android:id="@+id/topic"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:textColor="#ffffff"
+              android:gravity="center"
+              tools:text="Education"/>
+
+</RelativeLayout>
+
